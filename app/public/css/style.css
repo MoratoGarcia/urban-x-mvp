@@ -1,0 +1,79 @@
+body{
+	text-align: center;
+	margin: 0;
+}
+input{
+  display: block;
+  margin: 1em;
+  padding: 0 3em;
+  color: #555;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 3.8em;
+  text-decoration: none;
+  border-radius: .4em;
+  border: .01em solid #1F2C51;
+}
+label{
+	display: inline-block;
+	font-size: 2.3em;
+}
+.block {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.btn{
+	margin: 0 auto;
+	background-color: #1F2C51;
+	color:#00FBF0;
+	display: block;
+}
+.cdmex{
+	max-width: 20%;
+	height: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 15%;
+	position:relative;
+	display: inline-block;
+}
+.content{
+	text-align: center;
+	margin: .5em;
+	border:solid;
+	border-radius: 1em;
+	border-color:#1F2C51;
+	border-width: .3em;
+}
+.mapaton{
+	max-width: 50%;
+	height: auto;
+	margin: 1em;
+	display: inline-block;
+}
+.text{
+	 margin-left:10%
+}
+
+.urban{
+	max-width:40%;
+	height:auto;
+	margin-top:1em;
+	margin-bottom: 1em;
+	margin-right: 15%;
+	position:relative;
+	display: inline-block;
+}
+.ruta,
+.ramal{
+	font-size: 1.2em;
+	margin: 1em auto;
+	display: block;
+	padding: .6em .1em; 
+	background-color: #fff;
+	border: .01em solid #1F2C51;
+	border-radius: .04em;
+	text-align: center;
+}

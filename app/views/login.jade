@@ -1,0 +1,18 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", type="text/css", href="css/style.css")
+		title Checador
+body
+	div(class="content")
+		img(class="urban", src="img/urbanx.png", alt="Logotipo Urban-X")
+		img(class="cdmex", src="img/cdmx.png", alt="Logotipo CDMX")
+	
+		form(action="/process/login", method="post")
+			label Clave de usuario
+			input(class="text", name="userpass", type="password")
+			input(class="btn", type="submit", value="ACCEDER")
+	
+		img(class="mapaton", src="img/mapaton.png", alt="Logotipo Mapatón")
