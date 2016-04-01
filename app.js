@@ -26,10 +26,10 @@ app.post('/process/login', (req, res) => {
 	res.redirect('/checador');
 });
 
-app.post('/process/ruta', (req, res) => {
+app.post('/process/route', (req, res) => {
 	const data = req.body;
 	data.date = new Date();
 	res.json(data);
 });
 
-app.listen(3000, () => console.log('Server up and running'));
+module.exports = app;
